@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="main">
+    <h2>Three Man Down</h2>
+    <hr>
+    <button class="surprised-btn">Random</button>
+
+    <input type="text" id="name-value" placeholder="Type name..." onkeypress="return onlyAlpha(event)">
+    <button type="button" id="name-search">Search</button>
+
+    <div class="moveButton">
+      <button class="prev-btn">
+        << </button>
+          <button class="next-btn">>></button>
+    </div>
+    <h3 id="name">กฤตย์ จีรพัฒนานุวงศ์</h3>
+    <section class="container">
+      <div class="photo">
+        <img id="img-container" src="./imgs/kit.jpg" style="width:100%">
+      </div>
+      <div class="profile">
+        <h3>Information</h3>
+        <ul id="info">
+          <li>Name: กฤตย์ จีรพัฒนานุวงศ์</li>
+          <li>NickName: Kit</li>
+          <li>Age: 26 years old</li>
+          <li>Position: Vocalist</li>
+        </ul>
+      </div>
+
+      <div id="ohm" class="thumbnail1">
+        <img src="./imgs/ohm.jpg" style="width:80%">
+        <p>กิจฎิเมธ ชาญพานิช</p>
+      </div>
+
+      <div id="seng" class="thumbnail2">
+        <img src="./imgs/seng.jpg" style="width:80%">
+        <p>วิศรุต ปฐมสิริไพศาล</p>
+      </div>
+
+      <div id="te" class="thumbnail3">
+        <img src="./imgs/te.jpg" style="width:80%">
+        <p>เตธนันท์ วงศ์ปรีชาโชค</p>
+      </div>
+      <div id="toon" class="thumbnail4">
+        <img src="./imgs/toon.jpg" alt="LF:Tisanai" style="width:80%">
+        <p>พีรพล เอี่ยมจำรัส</p>
+      </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
